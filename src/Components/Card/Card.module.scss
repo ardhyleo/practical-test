@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;1,300&family=Staatliches&display=swap");
+* {
+  margin: 0px;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  width: 150px;
+  height: 300px;
+  border-radius: 8px;
+  border: 2px solid #dadce0;
+  margin: 10px 15px;
+}
+.Card:hover {
+  background-color: #cff6ff;
+  cursor: pointer;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+.describe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category {
+  background-color: transparent;
+  color: #a43f3c;
+  border: 1px solid #a43f3c;
+  border-radius: 4px;
+  width: 90px;
+  height: 20px;
+  margin-top: 16px;
+}
+
+.img {
+  width: 100px;
+  height: 120px;
+}
+
+.title {
+  font-family: "Staatliches", cursive;
+}
+.price {
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: italic;
+}
+.stock {
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: italic;
+}
+.number {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+}
